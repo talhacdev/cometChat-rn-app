@@ -1,0 +1,59 @@
+{
+  "name": "cometchatapp",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@cometchat-pro/react-native-calls": "2.1.1",
+    "@cometchat-pro/react-native-chat": "3.0.0",
+    "@react-native-async-storage/async-storage": "^1.17.3",
+    "@react-native-picker/picker": "^1.9.4",
+    "@react-navigation/bottom-tabs": "^5.11.2",
+    "@react-navigation/native": "^5.8.10",
+    "@react-navigation/stack": "^5.12.8",
+    "emoji-mart-native": "^0.6.2-beta",
+    "firebase": "9.4.0",
+    "gravatar-api": "1.5.0",
+    "react": "17.0.2",
+    "react-native": "0.68.1",
+    "react-native-autolink": "^3.0.0",
+    "react-native-document-picker": "^4.1.1",
+    "react-native-elements": "^3.0.0-alpha.1",
+    "react-native-fast-image": "^8.3.4",
+    "react-native-gesture-handler": "^1.9.0",
+    "react-native-image-picker": "^3.1.1",
+    "react-native-keep-awake": "^4.0.0",
+    "react-native-modal": "^13.0.1",
+    "react-native-reanimated": "^1.13.3",
+    "react-native-safe-area-context": "^3.1.9",
+    "react-native-screens": "^2.16.1",
+    "react-native-sound": "^0.11.0",
+    "react-native-swipe-list-view": "^3.2.8",
+    "react-native-vector-icons": "^7.1.0",
+    "react-native-video": "^5.2.0-alpha1",
+    "react-native-video-controls": "^2.7.1",
+    "react-native-webview": "^11.14.1",
+    "reanimated-bottom-sheet": "^1.0.0-alpha.22",
+    "rn-fetch-blob": "^0.12.0",
+    "rn-nodeify": "^10.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/runtime": "^7.17.9",
+    "@react-native-community/eslint-config": "^3.0.1",
+    "babel-jest": "^28.0.3",
+    "eslint": "^8.14.0",
+    "jest": "^28.0.3",
+    "metro-react-native-babel-preset": "^0.70.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
